@@ -17,7 +17,7 @@ const AddVehicle = () => {
   const fetchScenarios = () => {
     axios.get('http://localhost:3000/scenarios')
     .then((response) => {
-      console.log(response)
+      console.log(response.data)
       // Need only scenario Name mapping through it and getting the scenarioName
       setScenarioName(response.data.map(scenario => scenario.scenarioName));
     })
