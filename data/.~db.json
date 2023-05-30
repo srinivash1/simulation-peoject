@@ -1,0 +1,25 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "test1",
+      "scenarioTime": 12,
+      "id": 1
+    },
+    {
+      "scenarioName": "test2",
+      "scenarioTime": 10,
+      "id": 2
+    }
+  ],
+  "vehicles": [
+    {
+      "scenarioName": "test1",
+      "vehicleName": "audi",
+      "vehicleSpeed": 1,
+      "positionX": 2,
+      "positionY": 1,
+      "selectedDirection": "towards",
+      "id": 1
+    }
+  ]
+}
